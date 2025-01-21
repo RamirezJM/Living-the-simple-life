@@ -5,7 +5,7 @@
 }
 
 header{
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
   background-color: #f8f8f8;
 }
@@ -18,7 +18,7 @@ h1{
   color: #143774;
   text-align: center;
 }
-p{
+.nav-title p{
   font-family: "Ubuntu", serif;
   font-weight: 700;
   font-style: normal;
@@ -51,10 +51,121 @@ nav ul li a{
 a:hover, a:focus{
   text-decoration: underline solid 2px #707070;
 }
+.container{
+  width: 95%;
+  
+  margin: 0 auto;
 
-img{
-  width: 50%;
 }
+main{
+  width: 100%;
+}
+aside{
+  width: 100%;
+}
+article figure{
+  width: 100%;
+  margin-block: 2em;
+}
+img{
+  width: 100%;
+}
+
+main h2{
+  color: #143774;
+  font-size: 1.5rem;
+  font-family: "Lora", serif;
+  font-weight: 400;
+  margin-block: 1em;
+}
+
+main figcaption{
+  color: #707070;
+  font-size: .8rem;
+  margin-top: 1em;
+}
+
+main p{
+  font-size: 1rem;
+  color: #707070;
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+  margin-block: 1em;
+}
+
+.continue{
+  font-size: .8rem;
+  color: #1792d2;
+  font-family: "Ubuntu";
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: .2em;
+ 
+}
+main a{
+  color: #1792d2;
+}
+hr{
+  margin-block: 2em;
+}
+ aside .upper{
+  border: solid 20px #ebebeb ;
+  margin-block: 2em;
+  padding: 2.5em;
+ }
+ aside .upper h2{
+  color: #143774;
+  margin-block: 1em;
+ }
+ aside .upper p{
+  color: #143774;
+  font-size: .8rem;
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+
+ }
+
+aside .lower{
+  border: 20px solid #ebebeb;
+  padding: 2.5em;
+}
+aside .lower h2{
+  color: #143774;
+  margin-block: 1em;
+}
+aside .lower a{
+  font-family: "Lora", serif;
+  font-weight: 400;
+  color: #143774;
+  font-size: 1.2rem;
+  text-decoration: none;
+
+}
+footer{
+  background-color: #143774;
+  padding: 3em;
+  margin-top: 3em;
+ 
+}
+footer p:first-child{
+  font-family: "Ubuntu", serif;
+  font-weight: 800;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #ebebeb;
+  margin-block: .5em;
+}
+footer p:last-child{
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #ebebeb;
+}
+
+
+  /*
 .container{
   display: flex;
   justify-content: space-between;
@@ -77,15 +188,13 @@ aside{
  
  .second-article{
   display: flex;
- }
-@media screen and (min-width:600px){
+ } */
+@media screen and (min-width:560px){
   nav ul{
     display: flex;
     justify-content: space-evenly;
   }
-  h1{
-    font-size: 3rem;
-  }
+
 }
 
 @media screen and (min-width:992px){
