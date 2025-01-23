@@ -8,6 +8,7 @@ header{
   width: 100%;
   margin: 0 auto;
   background-color: #f8f8f8;
+  padding: 1em;
 }
 
 h1{
@@ -106,9 +107,8 @@ main p{
 main a{
   color: #1792d2;
 }
-hr{
-  margin-block: 2em;
-}
+
+
  aside .upper{
   border: solid 20px #ebebeb ;
   margin-block: 2em;
@@ -165,30 +165,7 @@ footer p:last-child{
 }
 
 
-  /*
-.container{
-  display: flex;
-  justify-content: space-between;
-  width: 70%;
-  margin: 0 auto;
-  gap: 1rem;
-}
 
-main{
-  flex: 3;
-  color: black;
-  
-}
-aside{
-  flex: 1;
-}
- aside article{
-  border: 10px solid lightgray;
- }
- 
- .second-article{
-  display: flex;
- } */
 @media screen and (min-width:560px){
   nav ul{
     display: flex;
@@ -212,7 +189,6 @@ aside{
   .container{
     display: flex;
     gap: 1rem;
-     
   }
   main{
     flex: 3;
@@ -220,9 +196,21 @@ aside{
   aside{
     flex: 1;
   }
-  .first-article, .second-article{
+  .main-article{
     display: flex;
-    
+    gap: 1rem;
+    line-height: 1.5em;
+  }
+  .main-article figure{
+    flex: 1;
+  }
+  .main-article .text-info{
+    flex: 3;
+  }
+  .first-article{
+    display: block;
+    border-bottom: 2px solid #707070;
+    padding-bottom: 2em;
     
   }
 }
